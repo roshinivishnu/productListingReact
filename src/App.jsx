@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Filters from "./components/Filters";
 import ProductList from "./components/ProductList";
 
+
 const App = () => {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("");
